@@ -6,8 +6,12 @@ manifest:
       # See:
       # - https://zmk.dev/docs/features/modules
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
-    - name: gpeye
-      url-base: https://github.com/GPeye
+    # - name: gpeye
+    #   url-base: https://github.com/GPeye
+    - name: mctechnology17
+      url-base: https://github.com/mctechnology17
+    # - name: m165437
+    #   url-base: https://github.com/M165437
   projects:
     - name: eyelash_sofle
       url: https://github.com/a741725193/zmk-sofle
@@ -16,8 +20,14 @@ manifest:
       remote: zmkfirmware
       revision: v0.3.0
       import: app/west.yml
-    - name: mario-peripheral-animation
-      remote: gpeye
-      revision: main 
+    # - name: mario-peripheral-animation
+    #   remote: gpeye
+    #   revision: main
+    - name: zmk-nice-oled
+      remote: mctechnology17
+      revision: main
+    # - name: nice-view-gem 
+    #   remote: m165437
+    #   revision: main #new entry
   self:
     path: boards

@@ -288,7 +288,7 @@ layers:
   - '>'
   - {t: ;, s: ':'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - PRINTSCREEN
+  - {t: '$$mdi:transfer$$', type: trans}
   - F4
   - F5
   - F6

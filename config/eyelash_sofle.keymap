@@ -28,9 +28,7 @@
 
 &soft_off { hold-time-ms = <2000>; };
 
-&mt {
-    flavor = "balanced";
-};
+&mt { flavor = "balanced"; };
 
 / {
     scroll_encoder: scroll_encoder {
@@ -50,6 +48,12 @@
         softoff {
             bindings = <&soft_off>;
             key-positions = <14 28 40>;
+        };
+
+        delete {
+            bindings = <&kp DELETE>;
+            key-positions = <26 61>;
+            layers = <0 1>;
         };
     };
 

@@ -28,7 +28,10 @@
 
 &soft_off { hold-time-ms = <2000>; };
 
-&mt { flavor = "balanced"; };
+&mt {
+    flavor = "tap-preferred";
+    tapping-term-ms = <250>;
+};
 
 / {
     scroll_encoder: scroll_encoder {

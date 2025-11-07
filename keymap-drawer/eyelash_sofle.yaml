@@ -189,7 +189,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-command$$
-  - Sft+Alt+KP 4
+  - Sft+Gui+KP 4
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$'}

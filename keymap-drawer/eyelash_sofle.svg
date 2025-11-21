@@ -2628,29 +2628,29 @@ rect.held, rect.combo.held {
 <g transform="translate(84, 224)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<a href="#M_Main">
+<text x="0" y="-4" class="key tap layer-activator">M_Main</text>
+</a><text x="0" y="24" class="key hold">toggle</text>
+</g>
+<g transform="translate(140, 203)" class="key keypos-41">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <a href="#W_Main">
 <text x="0" y="-4" class="key tap layer-activator">W_Main</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
-<g transform="translate(140, 203)" class="key keypos-41">
+<g transform="translate(196, 196)" class="key keypos-42">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <a href="#W_Gaming">
 <text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 75%">W_Gaming</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
-<g transform="translate(196, 196)" class="key keypos-42">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#Symbols_and_FN">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 60%">Symbols_a…</tspan></text>
-</a><text x="0" y="24" class="key hold">toggle</text>
-</g>
 <g transform="translate(252, 203)" class="key keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#M_Main">
-<text x="0" y="-4" class="key tap layer-activator">M_Main</text>
+<a href="#M_Main_old">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 60%">M_Main_old</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(308, 203)" class="key keypos-44">

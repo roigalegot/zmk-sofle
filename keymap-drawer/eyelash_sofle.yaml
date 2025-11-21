@@ -431,10 +431,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: M_Main, h: toggle}
   - {t: W_Main, h: toggle}
   - {t: W_Gaming, h: toggle}
-  - {t: Symbols_and_FN, h: toggle}
-  - {t: M_Main, h: toggle}
+  - {t: M_Main_old, h: toggle}
   - '&soft_off'
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - '&soft_off'

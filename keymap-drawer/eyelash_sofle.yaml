@@ -65,6 +65,71 @@ layers:
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$'}
   - Symbols_and_FN
   - M_Num_and_Nav
+  M_Gaming:
+  - $$mdi:keyboard-esc$$
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - $$mdi:arrow-up-bold$$
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: '=', s: +}
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - $$mdi:arrow-down-bold$$
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: '-', s: _}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-command$$'}
+  - G
+  - $$mdi:arrow-left-bold$$
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, h: '$$mdi:apple-keyboard-shift$$', s: ':'}
+  - {t: '''', s: '"'}
+  - $$mdi:apple-keyboard-control$$
+  - {t: Z, h: Symbols_and_FN}
+  - X
+  - C
+  - V
+  - B
+  - $$mdi:arrow-right-bold$$
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, h: Symbols_and_FN, s: '?'}
+  - {t: \, s: '|'}
+  - $$mdi:volume-off$$
+  - Sys_and_Misc
+  - M_Num_and_Nav
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-command$$
+  - Sft+Gui+4
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$'}
+  - Symbols_and_FN
+  - M_Num_and_Nav
   W_Main:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
@@ -347,9 +412,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '"'
-  - (
   - )
-  - <
+  - {t: ']', s: '}'}
+  - '}'
   - '>'
   - {t: ;, s: ':'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -360,10 +425,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - _
+  - (
   - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
   - '{'
-  - '}'
+  - <
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
@@ -432,12 +497,12 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: M_Main, h: toggle}
+  - {t: M_Gaming, h: toggle}
   - {t: W_Main, h: toggle}
   - {t: W_Gaming, h: toggle}
-  - {t: M_Main_old, h: toggle}
-  - '&soft_off'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - '&soft_off'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - RGB BRI
   - RGB BRD
@@ -455,71 +520,6 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  M_Main_old:
-  - $$mdi:keyboard-esc$$
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - $$mdi:arrow-up-bold$$
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
-  - {t: '=', s: +}
-  - $$mdi:keyboard-tab$$
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - $$mdi:arrow-down-bold$$
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - {t: '-', s: _}
-  - $$mdi:apple-keyboard-shift$$
-  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-command$$'}
-  - G
-  - $$mdi:arrow-left-bold$$
-  - H
-  - {t: J, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: ;, h: '$$mdi:apple-keyboard-shift$$', s: ':'}
-  - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-control$$
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - $$mdi:arrow-right-bold$$
-  - N
-  - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - {t: \, s: '|'}
-  - $$mdi:volume-off$$
-  - Sys_and_Misc
-  - M_Num_and_Nav
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:keyboard-space$$
-  - $$mdi:apple-keyboard-command$$
-  - Sft+Gui+4
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$'}
-  - Symbols_and_FN
-  - M_Num_and_Nav
 combos:
 - p: [14, 28, 40]
   k: '&soft_off'
